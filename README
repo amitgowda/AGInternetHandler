@@ -1,0 +1,5 @@
+This file is intended for use for iOS developers for simple and efficient way of handling http request like image, file downloading and storing.
+Below is the list of steps required
+1)Make an object of AGInternetHandler
+2)Call the method startRequestWithURL:(NSString *)url tag:(int)tg andFileName:(NSString*)fileN 
+3)and finally Implement the delegate methods requestSucceded and requestFailed
