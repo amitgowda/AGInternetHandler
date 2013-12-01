@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9469C5184A5358005E42D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9469C4184A5357005E42D8 /* QuartzCore.framework */; };
+		CEBADE37184A1F5F009BFD59 /* AGInternetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBADE36184A1F5F009BFD59 /* AGInternetHandler.m */; };
+		CEC196B2184A1765001C8E69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC196B1184A1764001C8E69 /* UIKit.framework */; };
+		CEC196B4184A1765001C8E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC196B3184A1765001C8E69 /* Foundation.framework */; };
+		CEC196B6184A1765001C8E69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC196B5184A1765001C8E69 /* CoreGraphics.framework */; };
+		CEC196BC184A1765001C8E69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC196BA184A1765001C8E69 /* InfoPlist.strings */; };
+		CEC196BE184A1765001C8E69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC196BD184A1765001C8E69 /* main.m */; };
+		CEC196C2184A1765001C8E69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC196C1184A1765001C8E69 /* AppDelegate.m */; };
+		CEC196C5184A1765001C8E69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC196C4184A1765001C8E69 /* ViewController.m */; };
+		CEC196C8184A1766001C8E69 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC196C6184A1766001C8E69 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE9469C4184A5357005E42D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEBADE35184A1F5F009BFD59 /* AGInternetHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGInternetHandler.h; sourceTree = "<group>"; };
+		CEBADE36184A1F5F009BFD59 /* AGInternetHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGInternetHandler.m; sourceTree = "<group>"; };
+		CEC196AD184A1764001C8E69 /* AGInternetHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGInternetHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC196B1184A1764001C8E69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC196B3184A1765001C8E69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC196B5184A1765001C8E69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC196B9184A1765001C8E69 /* AGInternetHandler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AGInternetHandler-Info.plist"; sourceTree = "<group>"; };
+		CEC196BB184A1765001C8E69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC196BD184A1765001C8E69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC196BF184A1765001C8E69 /* AGInternetHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGInternetHandler-Prefix.pch"; sourceTree = "<group>"; };
+		CEC196C0184A1765001C8E69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC196C1184A1765001C8E69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC196C3184A1765001C8E69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEC196C4184A1765001C8E69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC196C7184A1766001C8E69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC196AA184A1764001C8E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9469C5184A5358005E42D8 /* QuartzCore.framework in Frameworks */,
+				CEC196B2184A1765001C8E69 /* UIKit.framework in Frameworks */,
+				CEC196B4184A1765001C8E69 /* Foundation.framework in Frameworks */,
+				CEC196B6184A1765001C8E69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC196A2184A1762001C8E69 = {
+			isa = PBXGroup;
+			children = (
+				CEC196B7184A1765001C8E69 /* AGInternetHandler */,
+				CEC196B0184A1764001C8E69 /* Frameworks */,
+				CEC196AE184A1764001C8E69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC196AE184A1764001C8E69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC196AD184A1764001C8E69 /* AGInternetHandler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC196B0184A1764001C8E69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9469C4184A5357005E42D8 /* QuartzCore.framework */,
+				CEC196B1184A1764001C8E69 /* UIKit.framework */,
+				CEC196B3184A1765001C8E69 /* Foundation.framework */,
+				CEC196B5184A1765001C8E69 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC196B7184A1765001C8E69 /* AGInternetHandler */ = {
+			isa = PBXGroup;
+			children = (
+				CEC196C0184A1765001C8E69 /* AppDelegate.h */,
+				CEC196C1184A1765001C8E69 /* AppDelegate.m */,
+				CEBADE35184A1F5F009BFD59 /* AGInternetHandler.h */,
+				CEBADE36184A1F5F009BFD59 /* AGInternetHandler.m */,
+				CEC196C3184A1765001C8E69 /* ViewController.h */,
+				CEC196C4184A1765001C8E69 /* ViewController.m */,
+				CEC196C6184A1766001C8E69 /* ViewController.xib */,
+				CEC196B8184A1765001C8E69 /* Supporting Files */,
+			);
+			path = AGInternetHandler;
+			sourceTree = "<group>";
+		};
+		CEC196B8184A1765001C8E69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC196B9184A1765001C8E69 /* AGInternetHandler-Info.plist */,
+				CEC196BA184A1765001C8E69 /* InfoPlist.strings */,
+				CEC196BD184A1765001C8E69 /* main.m */,
+				CEC196BF184A1765001C8E69 /* AGInternetHandler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC196AC184A1764001C8E69 /* AGInternetHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC196CB184A1766001C8E69 /* Build configuration list for PBXNativeTarget "AGInternetHandler" */;
+			buildPhases = (
+				CEC196A9184A1764001C8E69 /* Sources */,
+				CEC196AA184A1764001C8E69 /* Frameworks */,
+				CEC196AB184A1764001C8E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGInternetHandler;
+			productName = AGInternetHandler;
+			productReference = CEC196AD184A1764001C8E69 /* AGInternetHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC196A4184A1762001C8E69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEC196A7184A1762001C8E69 /* Build configuration list for PBXProject "AGInternetHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC196A2184A1762001C8E69;
+			productRefGroup = CEC196AE184A1764001C8E69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC196AC184A1764001C8E69 /* AGInternetHandler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC196AB184A1764001C8E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC196BC184A1765001C8E69 /* InfoPlist.strings in Resources */,
+				CEC196C8184A1766001C8E69 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC196A9184A1764001C8E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC196BE184A1765001C8E69 /* main.m in Sources */,
+				CEC196C2184A1765001C8E69 /* AppDelegate.m in Sources */,
+				CEC196C5184A1765001C8E69 /* ViewController.m in Sources */,
+				CEBADE37184A1F5F009BFD59 /* AGInternetHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC196BA184A1765001C8E69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC196BB184A1765001C8E69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC196C6184A1766001C8E69 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC196C7184A1766001C8E69 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC196C9184A1766001C8E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC196CA184A1766001C8E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC196CC184A1766001C8E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGInternetHandler/AGInternetHandler-Prefix.pch";
+				INFOPLIST_FILE = "AGInternetHandler/AGInternetHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC196CD184A1766001C8E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGInternetHandler/AGInternetHandler-Prefix.pch";
+				INFOPLIST_FILE = "AGInternetHandler/AGInternetHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC196A7184A1762001C8E69 /* Build configuration list for PBXProject "AGInternetHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC196C9184A1766001C8E69 /* Debug */,
+				CEC196CA184A1766001C8E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC196CB184A1766001C8E69 /* Build configuration list for PBXNativeTarget "AGInternetHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC196CC184A1766001C8E69 /* Debug */,
+				CEC196CD184A1766001C8E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC196A4184A1762001C8E69 /* Project object */;
+}
