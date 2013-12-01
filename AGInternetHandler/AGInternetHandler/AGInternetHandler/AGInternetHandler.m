@@ -3,7 +3,7 @@
 //  AGInternetHandler
 //
 //  Created by Lion User on 30/11/2013.
-//  Copyright (c) 2013 AmitGowda. All rights reserved.
+//  Copyright (c) 2013 Amit Gowda. All rights reserved.
 //
 
 #import "AGInternetHandler.h"
