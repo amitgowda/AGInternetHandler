@@ -27,6 +27,7 @@
     loadingLabel.center = loadingView.center;
     [keyWindow addSubview:loadingView];
 }
+//For normal Request
 -(void)startRequestWithURL:(NSString *)url tag:(int)tg andFileName:(NSString *)fileN
 {
     NSLog(@"startrequest");
@@ -41,7 +42,29 @@
         fileName=fileN;
     }
 }
+//For Posting Request
+-(void)startPostRequest:(NSString *)url withParam:(NSString *)param
+{
+     NSLog(@"post %@ %@",url,param);
+    [self performSelector:@selector(addLoadingView) withObject:nil afterDelay:0.1];
+    NSURL *URL = [NSURL URLWithString:url];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
+    request.HTTPMethod = @"POST";
+    
+    NSData *data = [param dataUsingEncoding:NSUTF8StringEncoding];
+                    
+    [request addValue:@"8bit" forHTTPHeaderField:@"Content-Transfer-Encoding"];
+    [request addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [request addValue:[NSString stringWithFormat:@"%i", [data length]] forHTTPHeaderField:@"Content-Length"];
+    [request setHTTPBody:data];
 
+     conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    if(conn)
+    {
+        
+    }
+
+}
 -(void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
     responseData = [[NSMutableData alloc] init];
