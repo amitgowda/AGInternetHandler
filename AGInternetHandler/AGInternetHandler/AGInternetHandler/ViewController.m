@@ -22,7 +22,7 @@
     [agHandle startRequestWithURL:@"http://google.com" tag:1 andFileName:@"test.txt"];
     
     //For Posting url
-    
+    //[agHandle startPostRequest:@"http://www.some.com" withParam:@"param1=val1&param2=val2" tag:(int)tg andFileName:(NSString *)fileN;]
     itemArray = [NSArray arrayWithObjects:@"1",@"2", nil];
      
     [super viewDidLoad];
