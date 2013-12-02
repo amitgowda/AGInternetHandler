@@ -58,10 +58,11 @@
     [request addValue:[NSString stringWithFormat:@"%i", [data length]] forHTTPHeaderField:@"Content-Length"];
     [request setHTTPBody:data];
 
-     conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
-    if(conn)
+    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    if(connection)
     {
-        
+        tag=tg;
+        fileName=fileN;
     }
 
 }
