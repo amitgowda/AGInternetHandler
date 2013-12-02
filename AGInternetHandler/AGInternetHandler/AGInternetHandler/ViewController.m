@@ -20,6 +20,9 @@
     AGInternetHandler *agHandle = [[AGInternetHandler alloc] init];
     agHandle.delegate=self;
     [agHandle startRequestWithURL:@"http://google.com" tag:1 andFileName:@"test.txt"];
+    
+    //For Posting url
+    
     itemArray = [NSArray arrayWithObjects:@"1",@"2", nil];
      
     [super viewDidLoad];
