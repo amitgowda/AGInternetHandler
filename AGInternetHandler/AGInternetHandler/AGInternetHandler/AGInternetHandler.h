@@ -26,7 +26,7 @@
     id <AGInternetHandlerDelegate> delegate;
 }
 -(void)startRequestWithURL:(NSString *)url tag:(int)tg andFileName:(NSString*)fileN;
--(void)startPostRequest:(NSString *)url withParam:(NSString *)param;
+-(void)startPostRequest:(NSString *)url withParam:(NSString *)param tag:(int)tg andFileName:(NSString *)fileN;
 @property(nonatomic,assign)id <AGInternetHandlerDelegate> delegate;
 @property(nonatomic,assign)int tag;
 @property(nonatomic,assign)NSString *fileName, *fileContent;
