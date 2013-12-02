@@ -43,7 +43,7 @@
     }
 }
 //For Posting Request
--(void)startPostRequest:(NSString *)url withParam:(NSString *)param
+-(void)startPostRequest:(NSString *)url withParam:(NSString *)param tag:(int)tg andFileName:(NSString *)fileN
 {
      NSLog(@"post %@ %@",url,param);
     [self performSelector:@selector(addLoadingView) withObject:nil afterDelay:0.1];
